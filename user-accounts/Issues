@@ -1,0 +1,31 @@
+Running into problems with this example.
+
+After the following:
+   npm install
+   cp config.template.js config.mine.js
+   
+Errors occurred when starting app.js:
+
+icezees-MacBook-Pro:user-accounts icezee$ pwd
+/Users/icezee/TM/seneca/seneca-examples/user-accounts
+icezees-MacBook-Pro:user-accounts icezee$ 
+icezees-MacBook-Pro:user-accounts icezee$ 
+icezees-MacBook-Pro:user-accounts icezee$ node app.js
+2016-05-31T14:09:05.602Z vlgi59axkfyy/1464703745583/10315/- INFO	hello	Seneca/2.0.1/vlgi59axkfyy/1464703745583/10315/-	
+express-session deprecated undefined resave option; provide resave option app.js:58:9
+express-session deprecated undefined saveUninitialized option; provide saveUninitialized option app.js:58:9
+/Users/icezee/TM/seneca/seneca-examples/user-accounts/app.js:89
+u.register({nick:'u1',name:'nu1',email:'u1@example.com',password:'u1',active:true})
+  ^
+
+TypeError: u.register is not a function
+    at Object.<anonymous> (/Users/icezee/TM/seneca/seneca-examples/user-accounts/app.js:89:3)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:449:3
+icezees-MacBook-Pro:user-accounts icezee$ 
